@@ -13,6 +13,15 @@
 		BE8B184F27AC0CB100C5A942 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE8B184E27AC0CB100C5A942 /* Preview Assets.xcassets */; };
 		BE8B185127AC0CB100C5A942 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8B185027AC0CB100C5A942 /* Persistence.swift */; };
 		BE8B185427AC0CB100C5A942 /* Meditation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE8B185227AC0CB100C5A942 /* Meditation.xcdatamodeld */; };
+		BE8B185D27AC0FAB00C5A942 /* SongsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8B185C27AC0FAB00C5A942 /* SongsViewModel.swift */; };
+		BE97C96727ACD4EA00D349E9 /* MeditationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE97C96627ACD4EA00D349E9 /* MeditationView.swift */; };
+		BED1DC7E27ACD84E006BCE84 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED1DC7D27ACD84E006BCE84 /* PlayerView.swift */; };
+		BED1DC8027ACDB11006BCE84 /* PlayBackControlBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED1DC7F27ACDB11006BCE84 /* PlayBackControlBtn.swift */; };
+		BED1DC8327ACDEEA006BCE84 /* Meditation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED1DC8227ACDEEA006BCE84 /* Meditation.swift */; };
+		BED1DC8527ACE02A006BCE84 /* MeditationViiewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED1DC8427ACE02A006BCE84 /* MeditationViiewModel.swift */; };
+		BED1DC8827ACE14A006BCE84 /* DateFormater.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED1DC8727ACE14A006BCE84 /* DateFormater.swift */; };
+		BEEBCFC827B535060040842B /* AudioManaget.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEBCFC727B535060040842B /* AudioManaget.swift */; };
+		BEEBCFCA27B539C10040842B /* meditation.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BEEBCFC927B539C10040842B /* meditation.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +32,16 @@
 		BE8B184E27AC0CB100C5A942 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BE8B185027AC0CB100C5A942 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		BE8B185327AC0CB100C5A942 /* Meditation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Meditation.xcdatamodel; sourceTree = "<group>"; };
+		BE8B185C27AC0FAB00C5A942 /* SongsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsViewModel.swift; sourceTree = "<group>"; };
+		BE97C96627ACD4EA00D349E9 /* MeditationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationView.swift; sourceTree = "<group>"; };
+		BED1DC7D27ACD84E006BCE84 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		BED1DC7F27ACDB11006BCE84 /* PlayBackControlBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayBackControlBtn.swift; sourceTree = "<group>"; };
+		BED1DC8227ACDEEA006BCE84 /* Meditation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meditation.swift; sourceTree = "<group>"; };
+		BED1DC8427ACE02A006BCE84 /* MeditationViiewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationViiewModel.swift; sourceTree = "<group>"; };
+		BED1DC8727ACE14A006BCE84 /* DateFormater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormater.swift; sourceTree = "<group>"; };
+		BEEBCFC727B535060040842B /* AudioManaget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManaget.swift; sourceTree = "<group>"; };
+		BEEBCFC927B539C10040842B /* meditation.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = meditation.mp3; sourceTree = "<group>"; };
+		BEEBCFCB27B53B890040842B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,12 +74,20 @@
 		BE8B184627AC0CAF00C5A942 /* Meditation */ = {
 			isa = PBXGroup;
 			children = (
+				BEEBCFCB27B53B890040842B /* Info.plist */,
+				BEEBCFC627B534F40040842B /* Manager */,
+				BED1DC8627ACE133006BCE84 /* Extensions */,
+				BED1DC8127ACDED6006BCE84 /* Models */,
+				BE8B185B27AC0F6000C5A942 /* View */,
+				BE8B185A27AC0F5300C5A942 /* ViewModel */,
 				BE8B184727AC0CAF00C5A942 /* MeditationApp.swift */,
 				BE8B184927AC0CAF00C5A942 /* ContentView.swift */,
 				BE8B184B27AC0CB100C5A942 /* Assets.xcassets */,
+				BEEBCFC927B539C10040842B /* meditation.mp3 */,
 				BE8B185027AC0CB100C5A942 /* Persistence.swift */,
 				BE8B185227AC0CB100C5A942 /* Meditation.xcdatamodeld */,
 				BE8B184D27AC0CB100C5A942 /* Preview Content */,
+				BED1DC8427ACE02A006BCE84 /* MeditationViiewModel.swift */,
 			);
 			path = Meditation;
 			sourceTree = "<group>";
@@ -71,6 +98,48 @@
 				BE8B184E27AC0CB100C5A942 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BE8B185A27AC0F5300C5A942 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BE8B185C27AC0FAB00C5A942 /* SongsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BE8B185B27AC0F6000C5A942 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BE97C96627ACD4EA00D349E9 /* MeditationView.swift */,
+				BED1DC7D27ACD84E006BCE84 /* PlayerView.swift */,
+				BED1DC7F27ACDB11006BCE84 /* PlayBackControlBtn.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BED1DC8127ACDED6006BCE84 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BED1DC8227ACDEEA006BCE84 /* Meditation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BED1DC8627ACE133006BCE84 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BED1DC8727ACE14A006BCE84 /* DateFormater.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BEEBCFC627B534F40040842B /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				BEEBCFC727B535060040842B /* AudioManaget.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE8B184F27AC0CB100C5A942 /* Preview Assets.xcassets in Resources */,
+				BEEBCFCA27B539C10040842B /* meditation.mp3 in Resources */,
 				BE8B184C27AC0CB100C5A942 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,9 +214,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE8B185127AC0CB100C5A942 /* Persistence.swift in Sources */,
+				BE8B185D27AC0FAB00C5A942 /* SongsViewModel.swift in Sources */,
+				BED1DC7E27ACD84E006BCE84 /* PlayerView.swift in Sources */,
+				BED1DC8327ACDEEA006BCE84 /* Meditation.swift in Sources */,
 				BE8B185427AC0CB100C5A942 /* Meditation.xcdatamodeld in Sources */,
 				BE8B184A27AC0CAF00C5A942 /* ContentView.swift in Sources */,
+				BE97C96727ACD4EA00D349E9 /* MeditationView.swift in Sources */,
+				BED1DC8827ACE14A006BCE84 /* DateFormater.swift in Sources */,
+				BEEBCFC827B535060040842B /* AudioManaget.swift in Sources */,
 				BE8B184827AC0CAF00C5A942 /* MeditationApp.swift in Sources */,
+				BED1DC8527ACE02A006BCE84 /* MeditationViiewModel.swift in Sources */,
+				BED1DC8027ACDB11006BCE84 /* PlayBackControlBtn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +357,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Meditation/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Meditation/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -307,6 +386,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Meditation/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Meditation/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
